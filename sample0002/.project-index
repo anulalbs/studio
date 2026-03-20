@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "3b30acdb-8d78-4263-8c7b-5d23f039f7ea:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002-copy/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1773986396661,
+      "schemaVersion": 1
+    },
+    {
+      "id": "3c81cdc7-2475-4ad0-ab0e-6883e5ff73ed:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1773986396662,
+      "schemaVersion": 1
+    },
+    {
+      "id": "524091f0-c5c7-4120-98b4-b785aaf6bfcb:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002/api1.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1773985559707,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api1",
+      "namespace": "sample0002",
+      "version": "1.0",
+      "contentHash": "58966cc4a109097a"
+    },
+    {
+      "id": "66f7067e-bd45-43a7-8dda-b19958a9f200:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002-copy/api1.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1773986396660,
+      "schemaVersion": 1
+    },
+    {
+      "id": "d54905e5-1877-417a-a0fb-806efed2142d:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002/api1-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1773985559494,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "229a4302-4f45-4d05-9c16-9be863d4ae41",
+      "projectId": "nyKWMrc6",
+      "sourceNodeId": "524091f0-c5c7-4120-98b4-b785aaf6bfcb:0",
+      "targetNodeId": "d54905e5-1877-417a-a0fb-806efed2142d:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api1-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1773985559712,
+      "lastValidated": 1773985559712
+    },
+    {
+      "id": "4f0c3d67-8222-48c4-b331-1a7e5b45747c",
+      "projectId": "nyKWMrc6",
+      "sourceNodeId": "66f7067e-bd45-43a7-8dda-b19958a9f200:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "./api1-spec.yml",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: sample0002-copy/api1-spec.yml",
+      "createdAt": 1773986396666,
+      "lastValidated": 1773986396666
+    }
+  ]
+}
