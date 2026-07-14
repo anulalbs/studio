@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "327f9dc8-306d-4bb2-b252-07b942fb6f25:0",
+      "projectId": "8D53oQah",
+      "filePath": "sample1-copy-copy/pet-spec.json",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784024982103,
+      "schemaVersion": 1
+    },
+    {
+      "id": "5dd3c469-d7b3-4255-9d66-a216d00f7505:0",
+      "projectId": "8D53oQah",
+      "filePath": "sample1-copy-copy/pet.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784024983829,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "pet",
+      "namespace": "sample1",
+      "version": "1.0",
+      "contentHash": "1d49e8ff99703740"
+    },
+    {
+      "id": "a7834ddf-d016-450f-b398-0b9563127a55:0",
+      "projectId": "8D53oQah",
+      "filePath": "sample1-copy-copy/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784024985619,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "56274e3c-cc2c-45ec-b535-694c81225012",
+      "projectId": "8D53oQah",
+      "sourceNodeId": "5dd3c469-d7b3-4255-9d66-a216d00f7505:0",
+      "targetNodeId": "327f9dc8-306d-4bb2-b252-07b942fb6f25:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./pet-spec.json",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784024983831,
+      "lastValidated": 1784024983831
+    }
+  ]
+}
