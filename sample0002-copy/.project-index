@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "0a0e7248-4c2e-4bd3-96d5-ba71e14c8ac1:0",
+      "projectId": "cxpimf4r",
+      "filePath": "sample0002-copy/api1.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784023066154,
+      "schemaVersion": 1
+    },
+    {
+      "id": "6fb39c39-1f6b-4857-a8e6-2ec191efb648:0",
+      "projectId": "cxpimf4r",
+      "filePath": "sample0002-copy/api1-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784023066150,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "15e9e1f2-805d-4f57-808f-87ef8afcc1c9",
+      "projectId": "cxpimf4r",
+      "sourceNodeId": "0a0e7248-4c2e-4bd3-96d5-ba71e14c8ac1:0",
+      "targetNodeId": "6fb39c39-1f6b-4857-a8e6-2ec191efb648:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api1-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784023066228,
+      "lastValidated": 1784023066228
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "1153d02a-856d-41fd-b42a-a63728df90b2:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002/api1-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784023066149,
+      "schemaVersion": 1
+    },
+    {
+      "id": "7d1f9eaa-04c3-4561-97c7-86cbafd61401:0",
+      "projectId": "nyKWMrc6",
+      "filePath": "sample0002/api1.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784023066154,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api1",
+      "namespace": "sample0002",
+      "version": "1.0",
+      "contentHash": "58966cc4a109097a"
+    }
+  ],
+  "edges": [
+    {
+      "id": "852bf436-c8d8-4928-9b99-cc526f275a46",
+      "projectId": "nyKWMrc6",
+      "sourceNodeId": "7d1f9eaa-04c3-4561-97c7-86cbafd61401:0",
+      "targetNodeId": "1153d02a-856d-41fd-b42a-a63728df90b2:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api1-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784023066228,
+      "lastValidated": 1784023066228
+    }
+  ]
+}
