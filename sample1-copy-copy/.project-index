@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "13e29abc-b795-47b4-8b86-5b13a1f349d0:0",
+      "projectId": "CEbbaPEH",
+      "filePath": "sample1-copy-copy/api_studio_project.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784190890372,
+      "schemaVersion": 1
+    },
+    {
       "id": "7d5cd278-4014-464c-b978-9d7a01fa125b:0",
       "projectId": "CEbbaPEH",
       "filePath": "sample1-copy-copy/.project-index",

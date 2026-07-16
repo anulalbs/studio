@@ -1,6 +1,20 @@
 {
   "nodes": [
     {
+      "id": "2a2a265e-d1c9-4f86-a3fb-02e3ebb72895:0",
+      "projectId": "IHp2uEgy",
+      "filePath": "sample1-copy/new1_latest.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784190831579,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "new1_latest",
+      "namespace": "sample1-copy",
+      "version": "1.0.0",
+      "contentHash": "a548cd2f2de99f02"
+    },
+    {
       "id": "5641e90a-5c46-494b-9d14-b6a6acd5efcb:0",
       "projectId": "IHp2uEgy",
       "filePath": "sample1-copy/test_new_branch-spec.yml",
@@ -19,6 +33,24 @@
       "schemaVersion": 1
     },
     {
+      "id": "8a67e526-c1d7-49e9-ab27-53a1997351c7:0",
+      "projectId": "IHp2uEgy",
+      "filePath": "sample1-copy/api_studio_project.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784190964808,
+      "schemaVersion": 1
+    },
+    {
+      "id": "ded6a925-e4a7-458f-89df-ba0da2969480:0",
+      "projectId": "IHp2uEgy",
+      "filePath": "sample1-copy/new1_latest-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784190830274,
+      "schemaVersion": 1
+    },
+    {
       "id": "eca757b1-def6-4794-8ca1-03b1cdcd0a83:0",
       "projectId": "IHp2uEgy",
       "filePath": "sample1-copy/test_new_branch.yaml",
@@ -34,6 +66,18 @@
     }
   ],
   "edges": [
+    {
+      "id": "702dc3a5-df8a-403a-89d7-737afba83e65",
+      "projectId": "IHp2uEgy",
+      "sourceNodeId": "2a2a265e-d1c9-4f86-a3fb-02e3ebb72895:0",
+      "targetNodeId": "ded6a925-e4a7-458f-89df-ba0da2969480:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./new1_latest-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784190831585,
+      "lastValidated": 1784190831585
+    },
     {
       "id": "fd6ea269-cb52-4417-b2d7-45509e032da7",
       "projectId": "IHp2uEgy",
