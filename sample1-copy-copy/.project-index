@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "577f2624-10ef-4f04-bab8-37ae0e80d3f1:0",
+      "projectId": "CEbbaPEH",
+      "filePath": "sample1-copy-copy/openapi_petstore-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784180184121,
+      "schemaVersion": 1
+    },
+    {
+      "id": "b8106fe4-5891-4ea0-8518-f542ccbbca6b:0",
+      "projectId": "CEbbaPEH",
+      "filePath": "sample1-copy-copy/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784179555122,
+      "schemaVersion": 1
+    },
+    {
+      "id": "be040e59-8af4-4f3d-839a-d2019cac6048:0",
+      "projectId": "CEbbaPEH",
+      "filePath": "sample1-copy-copy/OpenAPI_Petstore.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784180186153,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "OpenAPI_Petstore",
+      "namespace": "sample1-copy-copy",
+      "version": "1.0.0",
+      "contentHash": "2b4da9334c745dfb"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2eeea73b-78c8-43aa-86cc-6361499c3e2f",
+      "projectId": "CEbbaPEH",
+      "sourceNodeId": "be040e59-8af4-4f3d-839a-d2019cac6048:0",
+      "targetNodeId": "577f2624-10ef-4f04-bab8-37ae0e80d3f1:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./openapi_petstore-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784180186158,
+      "lastValidated": 1784180186158
+    }
+  ]
+}

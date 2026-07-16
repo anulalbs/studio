@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "1b385bb5-221e-4628-9d1e-ba1e3cb02e5c:0",
+      "projectId": "IHp2uEgy",
+      "filePath": "sample1-copy/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784180322407,
+      "schemaVersion": 1
+    },
+    {
+      "id": "6a1e406b-7942-4d24-8b05-1823b75899a8:0",
+      "projectId": "IHp2uEgy",
+      "filePath": "sample1-copy/OpenAPI_Petstore.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784180413079,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "OpenAPI_Petstore",
+      "namespace": "sample1-copy",
+      "version": "1.0.0",
+      "contentHash": "a5370e765de0d3d3"
+    },
+    {
+      "id": "8ec4fee9-9f11-4d2a-b29e-9cf85728538c:0",
+      "projectId": "IHp2uEgy",
+      "filePath": "sample1-copy/openapi_petstore-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784180411828,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "8912a117-6248-4a15-8ea2-a7e4455f41ab",
+      "projectId": "IHp2uEgy",
+      "sourceNodeId": "6a1e406b-7942-4d24-8b05-1823b75899a8:0",
+      "targetNodeId": "8ec4fee9-9f11-4d2a-b29e-9cf85728538c:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./openapi_petstore-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784180413085,
+      "lastValidated": 1784180413085
+    }
+  ]
+}

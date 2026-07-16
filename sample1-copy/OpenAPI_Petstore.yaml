@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: OpenAPI_Petstore
+  version: 1.0.0
+  namespace: sample1-copy
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./openapi_petstore-spec.yml
