@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: '12121'
+  version: '1.0'
+  namespace: test002
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./12121-spec.yml

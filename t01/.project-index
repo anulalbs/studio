@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "054ba89d-16d9-4c6b-a8f5-e805fb892a4a:0",
+      "projectId": "BALDEcpv",
+      "filePath": "t01/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784269026534,
+      "schemaVersion": 1
+    },
+    {
+      "id": "7308cfcc-82b0-4d45-abfc-00e66c0996e8:0",
+      "projectId": "BALDEcpv",
+      "filePath": "t01/echo-api-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784268996482,
+      "schemaVersion": 1
+    },
+    {
+      "id": "d6f4e903-c303-4955-b9b0-7b9af90a1df3:0",
+      "projectId": "BALDEcpv",
+      "filePath": "t01/assembly-echo-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784268998827,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "assembly-echo-api",
+      "namespace": "t01",
+      "version": "1.1.0",
+      "contentHash": "904fedcb90b0088f"
+    },
+    {
+      "id": "d7ae1b84-ea7f-45ad-badc-5cae66bfc79f:0",
+      "projectId": "BALDEcpv",
+      "filePath": "t01/echo-api.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784268999640,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "echo-api",
+      "namespace": "t01",
+      "version": "1.1.0",
+      "contentHash": "70dd56d17db43912"
+    },
+    {
+      "id": "ddb3fbe7-805d-455e-9d92-cb6a7d4dd38d:0",
+      "projectId": "BALDEcpv",
+      "filePath": "t01/cors-echo-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784268998013,
+      "schemaVersion": 1,
+      "kind": "CORS",
+      "name": "cors-echo-api",
+      "namespace": "t01",
+      "version": "1.1.0",
+      "contentHash": "efcde8aa2ff722ac"
+    }
+  ],
+  "edges": [
+    {
+      "id": "7ee47af4-b434-42fe-bf71-62c114c68f95",
+      "projectId": "BALDEcpv",
+      "sourceNodeId": "d7ae1b84-ea7f-45ad-badc-5cae66bfc79f:0",
+      "targetNodeId": "d6f4e903-c303-4955-b9b0-7b9af90a1df3:0",
+      "targetRefType": "same-project",
+      "targetRefString": "t01:assembly-echo-api:1.1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1784268999647,
+      "lastValidated": 1784268999647
+    },
+    {
+      "id": "ded5a365-4f6e-49b2-be8e-87e83fbe8c66",
+      "projectId": "BALDEcpv",
+      "sourceNodeId": "d7ae1b84-ea7f-45ad-badc-5cae66bfc79f:0",
+      "targetNodeId": "7308cfcc-82b0-4d45-abfc-00e66c0996e8:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./echo-api-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784268999647,
+      "lastValidated": 1784268999647
+    },
+    {
+      "id": "f89be1a1-3be3-4924-bd79-46d634fb1e27",
+      "projectId": "BALDEcpv",
+      "sourceNodeId": "d7ae1b84-ea7f-45ad-badc-5cae66bfc79f:0",
+      "targetNodeId": "ddb3fbe7-805d-455e-9d92-cb6a7d4dd38d:0",
+      "targetRefType": "same-project",
+      "targetRefString": "t01:cors-echo-api:1.1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1784268999646,
+      "lastValidated": 1784268999646
+    }
+  ]
+}

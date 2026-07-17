@@ -10,6 +10,15 @@
       "schemaVersion": 1
     },
     {
+      "id": "4e103032-efdf-4777-a080-0bb6918beabe:0",
+      "projectId": "5Oho1dCE",
+      "filePath": "test002/12121-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784268193334,
+      "schemaVersion": 1
+    },
+    {
       "id": "5ae9f42b-3ace-4585-90f4-9136fba2d146:0",
       "projectId": "5Oho1dCE",
       "filePath": "test002/apiiiii.yml",
@@ -17,7 +26,34 @@
       "assetType": "support",
       "lastIndexed": 1784266376826,
       "schemaVersion": 1
+    },
+    {
+      "id": "cd0faa76-863a-4822-8e91-224eec8b1fd1:0",
+      "projectId": "5Oho1dCE",
+      "filePath": "test002/12121.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784268194088,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "12121",
+      "namespace": "test002",
+      "version": "1.0",
+      "contentHash": "7a5fbd12547c6b38"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "2b503d34-a9ca-4df6-963b-796f14fb7392",
+      "projectId": "5Oho1dCE",
+      "sourceNodeId": "cd0faa76-863a-4822-8e91-224eec8b1fd1:0",
+      "targetNodeId": "4e103032-efdf-4777-a080-0bb6918beabe:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./12121-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784268194092,
+      "lastValidated": 1784268194092
+    }
+  ]
 }

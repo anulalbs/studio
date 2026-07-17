@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "729d0abd-4ec9-408e-bdff-3ef03695e086:0",
+      "projectId": "d5XRdhL9",
+      "filePath": "t02/Swagger_Petstore.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784269022651,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "Swagger_Petstore",
+      "namespace": "t02",
+      "version": "1.0.7",
+      "contentHash": "f927af60d0745553"
+    },
+    {
+      "id": "8ce6d1eb-535f-4f05-b9ef-7cdaec9fbda5:0",
+      "projectId": "d5XRdhL9",
+      "filePath": "t02/swagger_petstore-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784269021847,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "2c9204db-40ca-4b9e-86a1-097c886d075a",
+      "projectId": "d5XRdhL9",
+      "sourceNodeId": "729d0abd-4ec9-408e-bdff-3ef03695e086:0",
+      "targetNodeId": "8ce6d1eb-535f-4f05-b9ef-7cdaec9fbda5:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./swagger_petstore-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784269022657,
+      "lastValidated": 1784269022657
+    }
+  ]
+}

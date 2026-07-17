@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "307f90a9-23d3-408b-8b20-4f290cb43a6e:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/test002/2323-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784268229342,
+      "schemaVersion": 1
+    },
+    {
       "id": "924bec0f-7a98-44bb-9823-1743bd691029:0",
       "projectId": "14A63YBQ",
       "filePath": "test001/cors-echo-api.yml",
@@ -22,6 +31,20 @@
       "assetType": "support",
       "lastIndexed": 1784266143566,
       "schemaVersion": 1
+    },
+    {
+      "id": "a703fda3-2a38-4988-b290-811a55ceee08:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/test002/2323.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784268230060,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "2323",
+      "namespace": "test001",
+      "version": "1.0",
+      "contentHash": "b966d63107cfebdb"
     },
     {
       "id": "b53c6a4b-583c-4525-9f21-ac90ed49a24c:0",
@@ -62,6 +85,18 @@
     }
   ],
   "edges": [
+    {
+      "id": "0c7cdbad-d71a-49b9-b4fd-bdb9ed2f2ffa",
+      "projectId": "14A63YBQ",
+      "sourceNodeId": "a703fda3-2a38-4988-b290-811a55ceee08:0",
+      "targetNodeId": "307f90a9-23d3-408b-8b20-4f290cb43a6e:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./2323-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784268230065,
+      "lastValidated": 1784268230065
+    },
     {
       "id": "7a300560-df9f-4843-9ee1-6e6deb845a3e",
       "projectId": "14A63YBQ",

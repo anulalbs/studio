@@ -1,0 +1,15 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: echo-api
+  version: 1.1.0
+  namespace: t01
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./echo-api-spec.yml
+  cors:
+    $ref: t01:cors-echo-api:1.1.0
+  policy-sequence:
+    - $ref: t01:assembly-echo-api:1.1.0
