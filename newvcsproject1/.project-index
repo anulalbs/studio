@@ -1,4 +1,50 @@
 {
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "6e51f375-4aa4-4d17-b760-26e50d8366b3:0",
+      "projectId": "D77zE5UV",
+      "filePath": "newvcsproject1/swagger_petstore_-_openapi_3_0-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784261868613,
+      "schemaVersion": 1
+    },
+    {
+      "id": "d0fcf565-1d34-4d44-a218-38a958a05ff0:0",
+      "projectId": "D77zE5UV",
+      "filePath": "newvcsproject1/Swagger_Petstore_-_OpenAPI_3_0.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784261869389,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "Swagger_Petstore_-_OpenAPI_3_0",
+      "namespace": "newvcsproject1",
+      "version": "1.0.12",
+      "contentHash": "f04e4048ec3cb5ee"
+    },
+    {
+      "id": "ffce32a8-6426-4295-b39f-a914e89884a7:0",
+      "projectId": "D77zE5UV",
+      "filePath": "newvcsproject1/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784261761843,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "9c864f9f-c5d5-4431-a65d-ceea749d4dbd",
+      "projectId": "D77zE5UV",
+      "sourceNodeId": "d0fcf565-1d34-4d44-a218-38a958a05ff0:0",
+      "targetNodeId": "6e51f375-4aa4-4d17-b760-26e50d8366b3:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./swagger_petstore_-_openapi_3_0-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784261869392,
+      "lastValidated": 1784261869392
+    }
+  ]
 }
