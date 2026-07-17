@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "8f1072d0-78f2-4071-bed7-92e9e693aa29:0",
+      "projectId": "A5ELAtMD",
+      "filePath": "gc022/api00000009999-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784269636638,
+      "schemaVersion": 1
+    },
+    {
+      "id": "ae74ac61-dfaa-4a1f-8092-dcb711aaa26b:0",
+      "projectId": "A5ELAtMD",
+      "filePath": "gc022/api00000009999.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784269638227,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api00000009999",
+      "namespace": "gc022",
+      "version": "1.0",
+      "contentHash": "8cdc476b566424d6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "a48562ec-1185-4b45-9878-4bcbbc1956d0",
+      "projectId": "A5ELAtMD",
+      "sourceNodeId": "ae74ac61-dfaa-4a1f-8092-dcb711aaa26b:0",
+      "targetNodeId": "8f1072d0-78f2-4071-bed7-92e9e693aa29:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api00000009999-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784269638232,
+      "lastValidated": 1784269638232
+    }
+  ]
+}
