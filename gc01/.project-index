@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "id": "1aae5778-9b11-4710-a9ea-c4453ac90ac4:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784269513516,
+      "schemaVersion": 1
+    },
+    {
+      "id": "40fa7875-b1c2-40a5-963c-d4d4444ec2e8:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/api001-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784269470478,
+      "schemaVersion": 1
+    },
+    {
+      "id": "4c8e1371-128b-4bae-a741-9509fdfa60c8:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/echo-api.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784269553939,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "echo-api",
+      "namespace": "gc01",
+      "version": "1.1.0",
+      "contentHash": "be2069a794bc2b9d"
+    },
+    {
+      "id": "79ecc3ae-4868-4b26-a557-2fc2afcb5590:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/cors-echo-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784269552129,
+      "schemaVersion": 1,
+      "kind": "CORS",
+      "name": "cors-echo-api",
+      "namespace": "gc01",
+      "version": "1.1.0",
+      "contentHash": "76d856a38ea1d33c"
+    },
+    {
+      "id": "9b101675-23a8-41f8-8e06-795bde71e5b4:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/assembly-echo-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784269553008,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "assembly-echo-api",
+      "namespace": "gc01",
+      "version": "1.1.0",
+      "contentHash": "e54d96127b458836"
+    },
+    {
+      "id": "bb99a3f9-c690-4b35-8d9e-00fd931543f2:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/echo-api-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784269550930,
+      "schemaVersion": 1
+    },
+    {
+      "id": "def22a85-4691-4d61-bcc9-0db87939083a:0",
+      "projectId": "H5SWkkYx",
+      "filePath": "gc01/api001.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784269472091,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api001",
+      "namespace": "gc01",
+      "version": "1.0",
+      "contentHash": "267f1567a341450a"
+    }
+  ],
+  "edges": [
+    {
+      "id": "27b3009f-8fc9-4cf7-9ee5-dcee57975e58",
+      "projectId": "H5SWkkYx",
+      "sourceNodeId": "4c8e1371-128b-4bae-a741-9509fdfa60c8:0",
+      "targetNodeId": "9b101675-23a8-41f8-8e06-795bde71e5b4:0",
+      "targetRefType": "same-project",
+      "targetRefString": "gc01:assembly-echo-api:1.1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1784269553944,
+      "lastValidated": 1784269553944
+    },
+    {
+      "id": "58a6cc0a-5b67-40f1-bc85-a4ef6b7139dc",
+      "projectId": "H5SWkkYx",
+      "sourceNodeId": "4c8e1371-128b-4bae-a741-9509fdfa60c8:0",
+      "targetNodeId": "bb99a3f9-c690-4b35-8d9e-00fd931543f2:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./echo-api-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784269553945,
+      "lastValidated": 1784269553945
+    },
+    {
+      "id": "9e37b087-9e38-43c6-bf04-82cb7145e61e",
+      "projectId": "H5SWkkYx",
+      "sourceNodeId": "def22a85-4691-4d61-bcc9-0db87939083a:0",
+      "targetNodeId": "40fa7875-b1c2-40a5-963c-d4d4444ec2e8:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api001-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784269472095,
+      "lastValidated": 1784269472095
+    },
+    {
+      "id": "9f65df5f-e096-4f77-8f9a-c63c8ce961d3",
+      "projectId": "H5SWkkYx",
+      "sourceNodeId": "4c8e1371-128b-4bae-a741-9509fdfa60c8:0",
+      "targetNodeId": "79ecc3ae-4868-4b26-a557-2fc2afcb5590:0",
+      "targetRefType": "same-project",
+      "targetRefString": "gc01:cors-echo-api:1.1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1784269553944,
+      "lastValidated": 1784269553944
+    }
+  ]
+}
