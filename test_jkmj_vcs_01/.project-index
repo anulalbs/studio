@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "66c687e8-1862-4f84-9fba-0d442e2ef718:0",
+      "projectId": "ztMjcY0t",
+      "filePath": "test_jkmj_vcs_01/dddd.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784272171436,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "dddd",
+      "namespace": "test_jkmj_vcs_01",
+      "version": "1.0",
+      "contentHash": "216192baaa6c8bfd"
+    },
+    {
+      "id": "8b149081-27e8-4e01-bf7a-f6254c3a3713:0",
+      "projectId": "ztMjcY0t",
+      "filePath": "test_jkmj_vcs_01/dddd-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784272170679,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "6b0acb6f-6431-4419-bf1f-8b21f02cc1dc",
+      "projectId": "ztMjcY0t",
+      "sourceNodeId": "66c687e8-1862-4f84-9fba-0d442e2ef718:0",
+      "targetNodeId": "8b149081-27e8-4e01-bf7a-f6254c3a3713:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./dddd-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784272171441,
+      "lastValidated": 1784272171441
+    }
+  ]
+}
