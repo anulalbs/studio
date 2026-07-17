@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: dddd
+  version: '1.0'
+  namespace: test_jkmj_vcs_01
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./dddd-spec.yml

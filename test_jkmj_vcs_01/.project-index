@@ -22,6 +22,15 @@
       "assetType": "support",
       "lastIndexed": 1784272170679,
       "schemaVersion": 1
+    },
+    {
+      "id": "8e58da5e-7725-4432-bfab-ea6565829027:0",
+      "projectId": "ztMjcY0t",
+      "filePath": "test_jkmj_vcs_01/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784286043274,
+      "schemaVersion": 1
     }
   ],
   "edges": [
