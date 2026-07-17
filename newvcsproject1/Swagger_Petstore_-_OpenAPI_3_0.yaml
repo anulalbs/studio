@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Swagger_Petstore_-_OpenAPI_3_0
+  version: 1.0.12
+  namespace: newvcsproject1
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./swagger_petstore_-_openapi_3_0-spec.yml
