@@ -1,4 +1,14 @@
 {
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "229c5944-7dde-4c12-8598-89de169c1469:0",
+      "projectId": "9VEldK5F",
+      "filePath": "sample1-copy-copy-copy/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784265798228,
+      "schemaVersion": 1
+    }
+  ],
   "edges": []
 }

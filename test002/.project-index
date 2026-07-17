@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "id": "0e10e190-4e1b-459f-a4c6-beef017cb71b:0",
+      "projectId": "5Oho1dCE",
+      "filePath": "test002/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784266181633,
+      "schemaVersion": 1
+    },
+    {
+      "id": "5ae9f42b-3ace-4585-90f4-9136fba2d146:0",
+      "projectId": "5Oho1dCE",
+      "filePath": "test002/apiiiii.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784266376826,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": []
+}

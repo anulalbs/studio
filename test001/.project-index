@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "924bec0f-7a98-44bb-9823-1743bd691029:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/cors-echo-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784266144473,
+      "schemaVersion": 1,
+      "kind": "CORS",
+      "name": "cors-echo-api",
+      "namespace": "test001",
+      "version": "1.1.0",
+      "contentHash": "cba6d96147c232b3"
+    },
+    {
+      "id": "a5a15f88-6d62-483a-b4c9-5e2955bbab0b:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/echo-api-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784266143566,
+      "schemaVersion": 1
+    },
+    {
+      "id": "b53c6a4b-583c-4525-9f21-ac90ed49a24c:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784266355788,
+      "schemaVersion": 1
+    },
+    {
+      "id": "c7d21d25-b671-4f53-9bee-db1e85d7ee64:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/echo-api.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784266146338,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "echo-api",
+      "namespace": "test001",
+      "version": "1.1.0",
+      "contentHash": "3824733d3e383857"
+    },
+    {
+      "id": "cebbf671-21e8-48bd-84f8-f7148b45eb47:0",
+      "projectId": "14A63YBQ",
+      "filePath": "test001/assembly-echo-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784266145363,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "assembly-echo-api",
+      "namespace": "test001",
+      "version": "1.1.0",
+      "contentHash": "311299865af82d05"
+    }
+  ],
+  "edges": [
+    {
+      "id": "7a300560-df9f-4843-9ee1-6e6deb845a3e",
+      "projectId": "14A63YBQ",
+      "sourceNodeId": "c7d21d25-b671-4f53-9bee-db1e85d7ee64:0",
+      "targetNodeId": "a5a15f88-6d62-483a-b4c9-5e2955bbab0b:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./echo-api-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784266146343,
+      "lastValidated": 1784266146343
+    },
+    {
+      "id": "8ca2d04e-1693-4573-a4af-0a2506053d03",
+      "projectId": "14A63YBQ",
+      "sourceNodeId": "c7d21d25-b671-4f53-9bee-db1e85d7ee64:0",
+      "targetNodeId": "cebbf671-21e8-48bd-84f8-f7148b45eb47:0",
+      "targetRefType": "same-project",
+      "targetRefString": "test001:assembly-echo-api:1.1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1784266146343,
+      "lastValidated": 1784266146343
+    },
+    {
+      "id": "f58739dd-86cd-4503-a10b-edb5139e48b2",
+      "projectId": "14A63YBQ",
+      "sourceNodeId": "c7d21d25-b671-4f53-9bee-db1e85d7ee64:0",
+      "targetNodeId": "924bec0f-7a98-44bb-9823-1743bd691029:0",
+      "targetRefType": "same-project",
+      "targetRefString": "test001:cors-echo-api:1.1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1784266146343,
+      "lastValidated": 1784266146343
+    }
+  ]
+}
